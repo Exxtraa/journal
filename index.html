@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Journal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="journal-box">
+            <div class="date-container">
+                <span id="current-date"></span>
+            </div>
+            <div class="content-container">
+                <input type="text" id="headline" placeholder="Today's Headline..." class="headline-input">
+                <textarea id="journal-entry" placeholder="Write your day... (Enter for bullet)" class="journal-textarea"></textarea>
+            </div>
+            <div class="button-container">
+                <button id="save-btn" class="save-button">Save Entry</button>
+                <button id="pdf-btn" class="pdf-button">Export to PDF</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
