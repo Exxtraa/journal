@@ -94,7 +94,7 @@ body {
 
 .save-button {
     background: #4a90e2;
-    color: white;
+    color: red;
 }
 
 .save-button:hover {
